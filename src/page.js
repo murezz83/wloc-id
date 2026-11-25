@@ -170,7 +170,7 @@ const FAV_KEY = 'wloc_favorites';
 // lat/lon are always WGS84 -- this is what gets written to the device and the only coordinate system wloc accepts.
 // The base map may use GCJ-02 tiles, so the lat/lon shown on screen is not equal to it. The conversion is kept in the toDisplay/
 // fromDisplay functions only; nothing else touches it.
-let lat = 22.544577, lon = 113.94114;
+let lat = -6.1754, lon = 106.8272; // initial map view: Monas, Jakarta (not saved until you tap "Save to device")
 let selected = false;
 let activeLon = null, activeLat = null;
 let layerIsGcj = false;
